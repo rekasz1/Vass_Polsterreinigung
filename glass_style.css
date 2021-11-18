@@ -39,27 +39,7 @@ main {
     position: absolute;
     border-radius: 50%;
     opacity:0.6;
-}
-
-/* .circle1, .circle2, .circle3, .circle4, .circle6,.circle5:before{
-  content: "";
-  display: inline-block;
-  
-}
-
-.circle1, .circle2, .circle3, .circle4, .circle6, .circle5:after{
-    content:"";
-    position: absolute;
-    filter: blur(1px);
-    z-index: 5;
-    filter: rotateZ(-30);
-    transform: rotateZ(-30deg);
-    display: block;
-    background: radial-gradient(circle at 50% 80%, rgba(255,255,255,0), rgba(255,255,255,0)74%, white 80%, rgba(255,255,255,0)100%);
-} */
-
-
-.circle1{
+}.circle1{
     top: 10%;
     right:18%;
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
@@ -115,81 +95,7 @@ main {
     z-index: 4;
 }
 
-h1{
-    /* font-weight: 600; */
-    font-size: 3rem;
-    font-weight: bold;
-    opacity:0.6;
-    margin-bottom: 3%;
-    margin-top: 4%;
-}
-
-label, .submit, .status {
-    font-weight: 600;
-    font-size: 2vh;
-    /* font-size: 3rem; */
-    opacity:0.6;
-}
-
-input, textarea, .submit {
-    /* background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)); */
-    background: white;
-    border: none;
-    /* width: 50vh; */
-    width: 50vh;
-    height: 3vh;
-    border-radius: 5px;
-    margin-bottom: 4%;
-}
-
-textarea {
-    height: 30vh;
-}
-
-.submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 20vh;
-    height: 4vh;
-    background:rgba(#c8d8e4) ;
-    margin-bottom:4%;
-    margin-top:4%;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-input, textarea{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.status{
-    margin: 0 auto;
-}
-
-.contactform {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;   
-}
-
-
-label, input, textarea{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
 @media screen and (max-width:1024px) {
-    label, input, textarea{
-        width: 30vh;
-    }
-    h1{
-      font-size: 3vh;
-    }
     .glass{
         padding: 20px;
     }
@@ -199,12 +105,6 @@ label, input, textarea{
 @media screen and (max-width:768px) {
     .circle1, .circle2, .circle3, .circle4, .circle5, .circle6{
         visibility: hidden;
-    }
-    label, input, textarea{
-        width: 20vh;
-    }
-    h1{
-      font-size: 3vh;
     }
     .glass{
         padding: 20px;
