@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* min-height: 100vh; */
+}
+
+ main{
+  background: linear-gradient(110deg, #c8d8e4 60%, #ffffff 60%);
+  /* height: 100%; */
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    
+    padding-left: 50px;
+    padding-right: 50px
+ }
+
+ .main-title{
+  padding-top:4%;
+  font-size: 3em;
+  font-weight: 800;
+  letter-spacing: -2px;
+ }
+
+ .descripton-prices{
+  padding-top:4%;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: -2px;
+
+ }
+
+ .criteria-list{
+  padding-top:2%;
+  font-size: 1.5em;
+  font-weight: 600;
+  /* letter-spacing: -2px; */
+ }
+
+ .green-background{
+   margin-top: 2%;
+   margin-bottom: 2%;
+   max-width: max-content;
+  /* padding-top:2%; */
+  font-size: 1.5em;
+  font-weight: 600;
+  background: #6db784;
+  padding:5px;
+  color: white;
+ }
+
+ .extra-info{
+  font-size: 1.5em;
+  font-weight: 600;
+
+ }
+
+.prices {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   /* justify-content: space-evenly; */
+    justify-content: center; 
+   align-items: center;
+}
+
+
+span {
+    font-size: 0.8rem;
+}
+
+
+table.customTable {
+    width: 80%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 4px;
+    border-color: #6DB784;
+    border-style: solid;
+    color: #000000;
+    margin-bottom: 3%;
+    margin-top: 1%;
+  }
+  
+  table.customTable td, table.customTable th {
+    border-width: 8px;
+    border-color: #6DB784;
+    border-style: solid;
+    padding: 5px;
+    
+  }
+
+  table.customTable th{
+      color:black;
+      font-size: 1.2rem;
+  }
+  
+  table.customTable thead {
+    background-color: white;
+    
+  }
+
+  table.customTable td {
+    text-align: center;
+    
+  }
+  

@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preise</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../nav-style.css">
+    <!-- <link rel="stylesheet" href="../glass_style.css"> -->
+    <link rel="stylesheet" href="../footer_style.css">
+    <link rel="stylesheet" href="preise.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
@@ -19,16 +23,16 @@
         </div>
         <ul class="nav-links">
             <li>
-                <a href="#">Home</a>
+                <a href="/index.html">Home</a>
             </li>
             <li>
-                <a href="#">Über Uns</a>
+                <a href="/Uber_uns/uberuns.html">Über Uns</a>
             </li>
             <li>
-                <a href="#">Preise</a>
+                <a href="./Preise/preise.html">Preise</a>
             </li>
             <li>
-                <a href="#">Angebot anfordern</a>
+                <a href="/Kontakt/kontakt.html">Kontakt</a>
             </li>
         </ul>
         <div class="burger">
@@ -39,27 +43,77 @@
         </div>
     </nav>
     <main>
-        <h1>
+
+        <h1 class="main-title">
             Wie setzen sich die Preise für eine Polsterreinigung zusammen?
         </h1>
-        <p>
-            Damit die Abrechnung für Sie auch nachvollziehbar ist, bemühen wir uns um eine Transparenz der Kosten. Der
-            genaue Aufwand für unsere Polsterreinigung ergibt sich aus:
+        <p class="descripton-prices">
+            Die Preise sind nach folgenden Kriterien zusamenngestellt, damit die Abrechnung für Sie auch
+            nachvollziehbar ist:
         </p>
-        <ul>
-            <li>Zustand</li>
-            <li>Größe</li>
-            <li>Verschmutzungsgrad Ihrer Polster</li>
-            <li>km zuschlag</li>
+        <!-- <p> Der genaue Aufwand für unsere Polsterreinigung ergibt sich aus:</p> -->
+
+        <ul class="criteria-list">
+            <li> Zustand</li>
+            <li> Größe</li>
+            <li> Verschmutzungsgrad Ihrer Polster</li>
+            <li> Kilometer zuschlag: ab 20 Km von Dübendorf, pro Km CHF 0.50</li>
         </ul>
 
-        <p>
-            Sie können sich den genauen Aufwand gerne vorher von unseren freundlichen Beratern abschätzen lassen. Dann
-            können wir gemeinsam festlegen, welche Arbeiten gemacht werden sollen.
+        <p class="green-background">
+            Sie können sich die genaue Reinigungskosten gerne vorher abschätzen lassen.
         </p>
+        <!-- <p>, und zusammen legen wir fest, welche Arbeiten gemacht werden sollen.</p> -->
+        <section class="prices">
+            <div style="overflow-x:auto;">
+                <table class="customTable">
+                    <thead>
+                        <tr>
+                            <th>Stuhl*</th>
+                            <th>Bürostuhl</th>
+                            <th>Sessel</th>
+                            <th>Kleinelemente <span>(Hocker, Sitzbank)</span></th>
+                            <th>Sofas 2 Sitzer</th>
+                            <th>Sofas 3 Sitzer</th>
+                            <th>Eckcouch Klein</th>
+                            <th>Eckcouch Gross</th>
+                            <th>Matratzen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CHF 30</td>
+                            <td>CHF 35</td>
+                            <td>CHF 95</td>
+                            <td>CHF 35</td>
+                            <td>CHF 120</td>
+                            <td>CHF 180</td>
+                            <td>CHF 240</td>
+                            <td>CHF 300</td>
+                            <td>CHF 60</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <div class="extra-info">
+            <p>* Minimum 2 Stuck</p>
+            <p>Alle Preise verstehen sich inklusive gesetzl. Mwst. 7.7%</p>
+        </div>
+
+
 
     </main>
-    <script src="app.js"></script>
+
+    <footer>
+        <img src="../facebook-icon.png">
+        <p>Vass Polsterreinigung</p>
+        <img src="../whatapp_icon.png">
+        <p>076 650 32 99</p>
+        <img src="../email_icon.png">
+        <p>vass.polsterreinigung@gmail.com</p>
+    </footer>
+    <script src="preise.js"></script>
 </body>
 
 </html>

@@ -10,15 +10,19 @@ nav {
     align-items: center;
     min-height: 8vh;
     background-color: #f2f2f2;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    /* font-size: 2em;
+    font-weight: 800;
+    letter-spacing: -2px; */
 }
 
 .logo{
     /* color:#f5eec2; */
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-size: 20px;
-    opacity:0.6;
+    /* opacity:0.6; */
 }
 
 .nav-links{
@@ -31,10 +35,10 @@ nav {
     /* color:#f5eec2; */
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     text-decoration: none;
     color:black;
-    opacity:0.6;
+    /* opacity:0.6; */
 }
 
 .nav-links li{

@@ -32,7 +32,7 @@ main {
 
 .circle1, .circle2, .circle3, .circle4, .circle5, .circle6{
     background: white;
-    /* background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2)); */
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
     background: radial-gradient(circle at 50% 55%, rgba(240,245,255,0.9), rgba(240,245,255,0.9)40%, rgba(225,238,255,0.8)60%, rgba(43,130,255,0.4));
     height: 15rem;
     width: 15rem;
