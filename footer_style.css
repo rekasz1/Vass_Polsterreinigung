@@ -1,0 +1,24 @@
+.glass{
+    padding:20px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 6vh;
+}
+
+footer > p{
+    padding-left: 10px;
+    padding-right: 20px;
+    /* bottom:0;
+    width:100%;
+    position: fixed; */
+}
+
+
+img {
+    width:30px;
+}
