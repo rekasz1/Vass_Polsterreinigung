@@ -23,16 +23,18 @@ main{
  .glass {
   background: rgba(109,	183,	132);
   min-height: 65vh;
-  width: 30%;
-  padding-top: 10px;
+  /* width: 30%; */
+  padding-top: 50px;
   border-radius: 0.5rem;
   margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 } 
 
 h1{
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: bold;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   margin-top: 4%;
   display: flex;
     justify-content: center;
@@ -48,6 +50,8 @@ label, .submit, .status {
   color: black;
 }
 
+
+
 .submit{color:black}
 
 input, textarea, .submit {
@@ -58,7 +62,7 @@ input, textarea, .submit {
   width: 50vh;
   height: 3vh;
   border-radius: 5px;
-  margin-bottom: 4%;
+  margin-bottom: 6%;
 }
 
 textarea {
@@ -117,17 +121,23 @@ label, input, textarea{
 }
 
 @media screen and (max-width:768px) {
-  .circle1, .circle2, .circle3, .circle4, .circle5, .circle6{
-      visibility: hidden;
-  }
   label, input, textarea{
       width: 20vh;
   }
+
+  label{
+    text-align: center;
+  }
   h1{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px;
     font-size: 3vh;
+    letter-spacing: normal;
+    text-align: center;
   }
-  .glass{
+  /* .glass{
       padding: 20px;
-  }
+  } */
 
 }

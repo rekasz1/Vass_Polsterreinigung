@@ -61,6 +61,7 @@ body {
   font-size: 1.5em;
   font-weight: 600;
   padding-bottom: 20px;
+  margin-bottom: 80px;
 
  }
 
@@ -114,3 +115,50 @@ table.customTable {
     
   }
   
+
+  @media screen and (max-width:480px){
+
+    .main-title{
+      padding-top: 8%;
+      padding-bottom:4%;
+      font-size: 2em;
+      
+    }
+
+    .descripton-prices{
+      
+      font-size: 1.5em;
+      font-weight: 600;
+      letter-spacing:normal;
+      padding-bottom: 2%;
+    
+     }
+
+     .criteria-list{
+      /* padding-top:2%; */
+      font-size: 1em;
+      font-weight: 600;
+      padding-bottom:8%;
+      /* letter-spacing: -2px; */
+     }
+
+     .green-background{
+      margin-bottom: 10%;
+      
+    }
+
+    .extra-info{
+      font-size: 1em;
+      font-weight: 600;
+      padding-bottom: 20px;
+      margin-bottom: 80px;
+    
+     }
+
+     .extra-info >p {
+       margin-bottom: 5%;
+     }
+      
+      
+
+  }

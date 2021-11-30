@@ -21,12 +21,12 @@ $(document).ready(function () {
             // console.log('Email is not valid')
         }
 
-        if (subject.length > 2) {
-            statusElm.append('<div>Subject is valid</div>')
-        } else {
-            event.preventDefault()
-            statusElm.append('<div>Subject is not valid</div>')
-        }
+        // if (subject.length > 2) {
+        //     statusElm.append('<div>Subject is valid</div>')
+        // } else {
+        //     event.preventDefault()
+        //     statusElm.append('<div>Subject is not valid</div>')
+        // }
 
         if (message.length > 20) {
             statusElm.append('<div>Message is valid</div>')
