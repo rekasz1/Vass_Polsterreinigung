@@ -1,12 +1,12 @@
 
 
-footer{
+/* footer{
     background-color: #f2f2f2;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: row;
-    /* height: 6vh; */
+   
     padding-top: 10px;
     margin-top: auto;
     bottom: 0;
@@ -14,7 +14,22 @@ footer{
     flex-wrap: wrap;
     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
    
-}
+} */
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items:center;
+    align-content:center;
+    text-align: center; 
+    background-color: #f2f2f2;
+    flex-wrap: wrap ;
+  } 
 
 .facebook > a{
      margin-left: 5px;
