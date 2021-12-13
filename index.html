@@ -48,12 +48,16 @@
         </div>
     </nav>
     <main>
+        <div id="langlinks">
+            <!--this is where we'll output out custom language switcher menu-->
+        </div>
+
         <div class="container">
             <div class="text">
                 <h1 class="title-frontpage">Lassen Sie Ihre Polster reinigen, statt neu zu kaufen!</h1>
                 <h2 class="subtitle-frontpage">In Komfort von Ihrem Zuhause.</h2>
-                <p class="description-frontpage"> Mit mobile Polsterreinigung Geräte werden Ihre Polstermöbel
-                    hygienisch sauber. </p>
+                <p class="description-frontpage">Mit mobile Polsterreinigung Geräte werden Ihre Polstermöbel hygienisch sauber.
+                </p>
                 <p class="description-frontpage"> Bequem vor Ort, auch am Wochenende!
                 </p>
 
@@ -78,8 +82,47 @@
 
 
     </footer>
-    <script src="kontakt.js"></script>
-    <script type="module" src="other.js"></script>
+
+    <script type="text/javascript">
+        var linguJSON = {
+            "languages": [
+                {
+                    "lang_name": "German",
+                    "lang_code": "de-CH",
+                    "url_pattern": "?"
+                },
+                {
+                    "lang_name": "English",
+                    "lang_code": "en",
+                    "url_pattern": "?"
+                }
+            ],
+            "translated_segments": [
+                {
+                    "source": "Lassen Sie Ihre Polster reinigen, statt neu zu kaufen!",
+                    "target": "Have your upholstery cleaned instead of buying new!"
+                },
+                {
+                    "source": "In Komfort von Ihrem Zuhause.",
+                    "target": "In the comfort of your home."
+                },
+                {
+                    "source": "Mit mobile Polsterreinigung Geräte werden Ihre Polstermöbel hygienisch sauber.",
+                    "target": "With mobile upholstery cleaning devices, your upholstered furniture will be hygienically clean."
+                },
+                {
+                    "source": "Bequem vor Ort, auch am Wochenende!",
+                    "target": "Conveniently in your home, even on weekends!"
+                }
+            ]
+        }
+    </script>
+    <script src="/js/lingumania.min.js"></script>
+
+
+
+    <!-- <script src="kontakt.js"></script> -->
+    <!-- <script type="module" src="other.js"></script> -->
 
     <script type="module" src="/Nav_design/navfunctionality.js"></script>
 
