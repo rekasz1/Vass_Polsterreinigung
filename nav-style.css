@@ -67,6 +67,10 @@ margin: 5px;
 transition: all 0.3s ease;
 }
 
+#linguamania_langswitcher{
+    left:0px;
+}
+
 @media screen and (max-width:1024px) {
     .nav-links{
         width: 60%;
