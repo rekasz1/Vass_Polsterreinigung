@@ -12,6 +12,7 @@
     <meta name="keywords"
         content="Polsterreinigung, Reinigung, Polster, Zürich, Matratzenreinigung, Upholstery Cleaning">
     <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footer_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,17 +67,26 @@
         </div>
 
         <div class="carousel">
-            <button class="carousel_button"></button>
-            <div class="caroulse_track-container">
+            <button class="carousel_button carousel_button--left">&#8249;</button>
+            <div class="carousel_track-container">
                 <ul class="carousel_track">
                     <li class="carousel_slide">
-                        <img src="" alt="">
+                        <img class="carousel_image" src="img/bed_stains.png" alt="Bed stains before after">
                     </li>
-                    <li class="carousel_slide"></li>
-                    <li class="carousel_slide"></li>
+                    <li class="carousel_slide">
+                        <img class="carousel_image" src="img/green_chair.png" alt="Green chair before after">
+                    </li>
+                    <li class="carousel_slide">
+                        <img class="carousel_image" src="img/brown_chair.png" alt="Brown chair before after">
+                    </li>
                 </ul>
             </div>
-            <button class="carousel_button"></button>
+            <button class="carousel_button carousel_button--right">&#8250;</button>
+            <div class="carousel_nav">
+                <button class="carousel_indicator current-slide"></button>
+                <button class="carousel_indicator current-slide"></button>
+                <button class="carousel_indicator current-slide"></button>
+            </div>
         </div>
 
 
@@ -111,6 +121,7 @@
     <!-- <script type="module" src="other.js"></script> -->
 
     <script type="module" src="/Nav_design/navfunctionality.js"></script>
+    <script src="carousel.js"></script>
 
 </body>
 
